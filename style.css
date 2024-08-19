@@ -3,6 +3,12 @@
     box-sizing: border-box;
 }
 
-.navbar-nav .nav-link:hover{
-    color: white;
+.navbar{
+    box-sizing: border-box;
+    box-shadow: 0 0 0 4px rgb(221, 220, 216);
 }
+
+.navbar-nav .nav-link:hover{
+    color: antiquewhite;
+}
+
