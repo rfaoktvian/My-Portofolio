@@ -5,10 +5,11 @@
 
 .navbar{
     box-sizing: border-box;
-    box-shadow: 0 0 0 4px rgb(221, 220, 216);
+    box-shadow: 0 0 0 4px rgb(0, 0, 0, 0.25);
+    background-color: white;
 }
 
 .navbar-nav .nav-link:hover{
-    color: antiquewhite;
+    color: rgb(203, 195, 171);
 }
 
