@@ -13,3 +13,36 @@
     color: rgb(203, 195, 171);
 }
 
+section{
+    padding-top: 100px;
+    
+}
+
+.home h1{
+    font-size: 72px;
+}
+
+.home h3{
+    font-size: 38px;
+}
+
+.btn{
+
+    border:3px solid black;
+    border-radius: 32px;
+}
+
+
+.btn:hover{
+    border: 3px solid white;
+    background-color: black;
+    color: white;
+}
+
+.col-4 img{
+    width: 70%;
+}
+
+.arrow img{
+    width: 64px;
+}
