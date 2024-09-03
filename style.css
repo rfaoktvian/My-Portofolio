@@ -5,7 +5,7 @@
 
 .navbar{
     box-sizing: border-box;
-    box-shadow: 0 0 0 4px rgb(0, 0, 0, 0.25);
+    box-shadow: 0 0 0 4px #b0b0c0;
     background-color: white;
 }
 
@@ -19,7 +19,7 @@ section{
 }
 
 .home h1{
-    font-size: 72px;
+    font-size: 68px;
 }
 
 .home h3{
@@ -40,9 +40,26 @@ section{
 }
 
 .col-4 img{
-    width: 70%;
+    width: 90%;
 }
 
 .arrow img{
-    width: 64px;
+    width: 42px;
+}
+
+.arrow{
+    animation: 2s upDown infinite;
+}
+
+
+@keyframes upDown{
+    0% {
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform:translateY(0);
+    }
 }
