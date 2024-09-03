@@ -1,6 +1,26 @@
 *{
-    font-family: Arial;
+    font-family:Arial;
     box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    padding-top: 128px;
+    position: relative;
+}
+
+section::before{
+    z-index: -1;
+    content:'';
+    font-size: 68px;
+    color: #b0b0c0;
+    position: absolute;
+    left: -15px;
+    top: 7px;
+    opacity: 1;
 }
 
 .navbar{
@@ -32,7 +52,7 @@ section{
 }
 
 
-.btn:hover{
+.btn:hover, .btn-button.active{
     border: 3px solid white;
     background-color: black;
     color: white;
@@ -48,6 +68,27 @@ section{
 
 .arrow{
     animation: 2s upDown infinite;
+}
+
+.about{
+    margin-top: 72px;
+}
+
+.about::before{
+    content: 'About';
+}
+
+.about p{
+    text-align: justify;
+}
+
+
+.about-exp-item-detail{
+    display: none;
+}
+
+h5{
+    font-size: 27px;
 }
 
 @keyframes upDown{
