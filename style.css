@@ -15,7 +15,6 @@
 
 section{
     padding-top: 100px;
-    
 }
 
 .home h1{
@@ -50,7 +49,6 @@ section{
 .arrow{
     animation: 2s upDown infinite;
 }
-
 
 @keyframes upDown{
     0% {
