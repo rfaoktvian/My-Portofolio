@@ -10,7 +10,7 @@ html{
 section{
     padding-top: 128px;
     position: relative;
-    margin-top: 78px;
+    margin-top: 20px;
 }
 
 section::before{
@@ -159,6 +159,34 @@ h5{
 .contact::before{
     content: 'Contact';
 }
+
+.contact-exp{
+    padding-top: 48px;
+    gap: 68px;
+}
+
+.contact-exp-detail{
+    width: 50%;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.contact-detail-item img{
+    width: 30%;
+}
+
+.pp{
+    text-align: justify;
+}
+
+form label{
+    font-weight: 700;
+}
+
 
 
 @keyframes upDown{
