@@ -175,6 +175,10 @@ h5{
     margin-bottom: 8px;
 }
 
+.p1{
+    text-align: justify;
+}
+
 .contact-detail-item img{
     width: 30%;
 }
