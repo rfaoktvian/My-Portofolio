@@ -46,6 +46,10 @@ section{
     font-size: 38px;
 }
 
+.home .col-4 img{
+    width: 100%;
+}
+
 .btn{
 
     border:3px solid black;
@@ -57,10 +61,6 @@ section{
     border: 3px solid white;
     background-color: black;
     color: white;
-}
-
-.col-4 img{
-    width: 90%;
 }
 
 .arrow img{
@@ -154,37 +154,17 @@ h5{
     content: 'Data Intelligence';
 }
 
-
+.contact{
+    padding-bottom: 128px;
+}
 
 .contact::before{
     content: 'Contact';
 }
 
-.contact-exp{
-    padding-top: 48px;
-    gap: 68px;
-}
-
-.contact-exp-detail{
-    width: 50%;
-}
-
-.input-group{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 8px;
-}
-
-.p1{
-    text-align: justify;
-}
-
-.contact-detail-item img{
-    width: 30%;
-}
-
-.pp{
-    text-align: justify;
+.contact-form{
+    border: 1px solid black;
+    padding: 64px 32px;
 }
 
 form label{
