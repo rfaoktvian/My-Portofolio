@@ -7,6 +7,10 @@ html{
     scroll-behavior: smooth;
 }
 
+p{
+    text-align: justify;
+}
+
 section{
     padding-top: 128px;
     position: relative;
@@ -47,6 +51,11 @@ section{
 }
 
 .home .col-4 img{
+    width: 100%;
+}
+
+
+.home img{
     width: 100%;
 }
 
@@ -169,6 +178,26 @@ h5{
 
 form label{
     font-weight: 700;
+}
+
+
+@media only screen and (max-width: 768px){
+    .home .col-4 img{
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .home .col-4 img{
+        width: 100%;
+    }
+}
+
+@media only screen and(max-width: 576px){
+    section::before{
+        left: -10px;
+        font-size: 64px;
+    }
 }
 
 
